@@ -1,0 +1,66 @@
+body {
+    background: linear-gradient(135deg, #000000, #1a1a1a);
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 80px;
+}
+
+
+
+button {
+    background: red;
+    color: white;
+    padding: 12px;
+    border: none;
+}
+
+select {
+    width: 220px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+}
+
+h1 {
+    color: #ff3333;
+    text-shadow: 0 0 20px red;
+}
+
+input {
+    width: 250px;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 12px;
+    border: none;
+    font-size: 16px;
+}
+
+button {
+    background: linear-gradient(red, darkred);
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+#output {
+    margin-top: 30px;
+    font-size: 24px;
+    color: gold;
+    font-weight: bold;
+}
+
+#powerLevel {
+    color: orange;
+    text-shadow: 0 0 10px orange;
+}
+
